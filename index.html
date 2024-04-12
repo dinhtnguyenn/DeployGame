@@ -56,10 +56,10 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "https://myzipbucketgame.s3.ap-southeast-2.amazonaws.com/Build";
+      var buildUrl = "Build";
       var loaderUrl = buildUrl + "/q.loader.js";
       var config = {
-        dataUrl: "",
+        dataUrl: buildUrl + "/q.data",
         frameworkUrl: buildUrl + "/q.framework.js",
         codeUrl: buildUrl + "/q.wasm",
         streamingAssetsUrl: "StreamingAssets",
